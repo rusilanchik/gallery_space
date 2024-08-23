@@ -1,0 +1,149 @@
+* {
+	/*Внутренний отступ*/
+	padding: 0;
+	/*Внешний отступ*/
+	margin: 0;
+	/*box модель элемента*/
+	box-sizing: border-box;
+	background-color: rgb(8, 2, 87);
+}
+
+@font-face {
+	font-family: new;
+	src: url(../fonts/Font\ Ma\(ka\)renkov.ttf);
+}
+
+body {
+	font-family: new;
+	src: url(../fonts/Font\ Ma\(ka\)renkov.ttf);
+}
+
+main {
+	background-color: rgb(65, 0, 216);
+	/*ширина	*/
+	width: 70%;
+	padding: 50px;
+	/*центрируем по горизонтали*/
+	margin: auto;
+	/*цвет фона*/
+	box-shadow: 0 0 10px 20px rgb(56, 9, 9);
+	/*Гибкая сетка*/
+	display: flex;
+	/*Для сохранения текущих размеров объекта*/
+	flex-wrap: wrap;
+	/*Выравнивание гибкой сетки*/
+	justify-content: center;
+}
+
+/*изменяем тег с именем класса photo*/
+.photo {
+	/*формулы при которых ячейки будут в ряд*/
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px)/16 * 9);
+	margin: 10px;
+	background-color: rgb(0, 0, 0);
+	/*выравниваем фото по центру и растягиваем по кроям*/
+	background-position: center;
+	background-size: cover;
+	/*длительность анимации*/
+	transition: all 2.0;
+}
+
+/*псевдокласс отвечающий за наведение мышки*/
+.photo:hover {
+	transform: rotate(3deg) scale(1.07);
+}
+
+div {
+	width: 70%;
+	margin: auto;
+	box-shadow: 0 0 10px 20px rgba(0, 0, 0, 0.2);
+	padding: 50px;
+
+
+}
+
+p {
+	width: 1000px;
+	margin: 0;
+	height: 100px;
+	background-color: rgb(65, 0, 216);
+	text-align: left;
+	text-align: justify;
+}
+
+h1 {
+	background-color: rgb(145, 140, 141);
+	width: 100%;
+	/*Выравнивание по горизонтали*/
+	text-align: center;
+	font: size 48px;
+	height: 0px;
+}
+
+.photo1 {
+	background-image: url(../img/1.jpg);
+}
+
+.photo2 {
+	background-image: url(../img/2.jpg);
+}
+
+.photo3 {
+	background-image: url(../img/3.jpg);
+}
+
+.photo4 {
+	background-image: url(../img/4.jpg);
+}
+
+.photo5 {
+	background-image: url(../img/5.jpg);
+}
+
+.photo6 {
+	background-image: url(../img/6.jpg);
+}
+
+.photo7 {
+	background-image: url(../img/7.jpg);
+}
+
+.photo8 {
+	background-image: url(../img/8.jpg);
+}
+
+.photo9 {
+	background-image: url(../img/9.jpg);
+}
+
+.photo10 {
+	background-image: url(../img/10.jpg);
+}
+
+.photo11 {
+	background-image: url(../img/11.jpg);
+}
+
+.photo12 {
+	background-image: url(../img/12.jpg);
+}
+
+.text {
+	box-shadow: 0 0 10px 20px rgb(56, 9, 9);
+	background-color: rgb(65, 0, 216);
+	margin: auto;
+	padding: 0;
+}
+a{
+	padding: 3px 2px;
+	background-color: rgb(65, 0, 216);
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+	
+
+}

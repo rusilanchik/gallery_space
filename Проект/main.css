@@ -1,0 +1,30 @@
+wibody{	
+	background-color: darkred;
+	color: white;
+}
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+img{
+	width: 100%;
+	height: auto;
+	max-width: 370px;
+	display: block;
+	margin: auto;
+}
+
+
+div{
+	width: 70%;
+	margin: auto;
+	box-shadow: 0 0 10px 20px rgba(0, 0, 0, 0.2);
+	padding: 50px;
+	background-color: black;
+	font-size:20px ;
+	font-family: fantasy;
+	line-height: 1.65;
+}
